@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
   <head>
-    <title>Communion Faith Assembly :: Services</title>
+    <title>Communion Faith Assembly :: About</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -167,7 +167,7 @@ $videoLink.on('click', function(e) {
           <div class="py-1">
             <div class="row align-items-center">
               <div class="col-2">
-                <h2 class="mb-0 site-logo"> <a href="index.html"><img src="images/cfaa.png"></a></h2>
+                <h2 class="mb-0 site-logo"> <a href="index.php"><img src="images/cfaa.png"></a></h2>
               </div>
               <div class="col-10">
                 <nav class="site-navigation text-right" role="navigation">
@@ -175,31 +175,31 @@ $videoLink.on('click', function(e) {
                     <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>      
                     <ul class="site-menu js-clone-nav d-none d-lg-block">
                       <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                       </li>
-                      <li><a href="services.html">Our Services</a></li>
+                      <li><a href="services.php">Our Services</a></li>
                       <li class="has-children active">
-                        <a href="beliefs.html">Our Mandate</a>
+                        <a href="beliefs.php">Our Mandate</a>
                         <ul class="dropdown arrow-top">
-                          <li><a href="beliefs.html">Beliefs</a></li>
-                          <li><a href="pastors.html">Ministers</a></li>
-                          <!-- <li><a href="beliefs.html">Services</a></li> -->
-                          <li><a href="cfa_ministry.html">CFA Ministry</a></li>
+                          <li><a href="beliefs.php">Beliefs</a></li>
+                          <li><a href="pastors.php">Ministers</a></li>
+                          <!-- <li><a href="beliefs.php">Services</a></li> -->
+                          <li><a href="cfa_ministry.php">CFA Ministry</a></li>
                           <!-- <li class="has-children">
-                            <a href="beliefs.html">CFA Ministry</a>
+                            <a href="beliefs.php">CFA Ministry</a>
                             <ul class="dropdown">
-                              <li><a href="beliefs.html">America</a></li>
-                              <li><a href="beliefs.html">Europe</a></li>
-                              <li><a href="beliefs.html">Asia</a></li>
-                              <li><a href="beliefs.html">Africa</a></li>
+                              <li><a href="beliefs.php">America</a></li>
+                              <li><a href="beliefs.php">Europe</a></li>
+                              <li><a href="beliefs.php">Asia</a></li>
+                              <li><a href="beliefs.php">Africa</a></li>
                               
                             </ul>
                           </li> -->
                         </ul>
                       </li>
-                      <li><a href="events.html">Events</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="events.php">Events</a></li>
+                      <li><a href="about.php">About</a></li>
+                      <li><a href="contact.php">Contact</a></li>
                     </ul>
                   </div>
                 </nav>
@@ -219,8 +219,8 @@ $videoLink.on('click', function(e) {
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
-              <h1>Our Services</h1>
-              <p class="font-weight-normal">It is time you <b>SPEAK</b> to your <b>MOUTAIN</b>.</p>
+              <h1>About Us</h1>
+              <p class="font-weight-normal">If you don't lose it your <b>MIND</b> you will soon have it in your <b>HANDS</b>.</p>
             </div>
           </div>
         </div>
@@ -228,14 +228,14 @@ $videoLink.on('click', function(e) {
     </div>
 
     
-    <!-- <div class="site-section">
+    <div class="site-section">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 mb-5 mb-md-0">
             
               <div class="img-border">
                 <a class="video-link popup-vimeo image-play" target="_self" href="https://youtu.be/6CyBBBLNaPA" data-width="1920" data-height="1080">
-                <a href="https://youtu.be/6CyBBBLNaPA" class="popup-vimeo image-play"> 
+                <!-- <a href="https://youtu.be/6CyBBBLNaPA" class="popup-vimeo image-play"> -->
 
                   <span class="icon-wrap">
                     <span class="icon icon-play"></span>
@@ -249,15 +249,15 @@ $videoLink.on('click', function(e) {
             <h2 class="h2 mb-3">About Our Church</h2>
             <p class="h5 mb-3">We Work Together to raise champions</p>
             <p class="mb-4">At Communion Faith Assembly (CFA), we are equipped with the word of God for growth and to raise Champions for God’s kingdom, A Glorious worship session that cause God to descend and bless his children. So we do not look at the bigness of any problem, but at the bigness of our God. </p>
-            <p><a href="https://vimeo.com/28959265" class="popup-vimeo text-uppercase">Watch Video <span class="icon-arrow-right small"></span></a></p>
+            <p><a href="https://youtu.be/6CyBBBLNaPA" class="popup-vimeo text-uppercase">Watch Video <span class="icon-arrow-right small"></span></a></p>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
 
 
-    <!-- <div class="site-section">
+    <div class="site-section">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-12 col-lg-5 mb-5 mb-lg-0 order-1">
@@ -277,49 +277,37 @@ $videoLink.on('click', function(e) {
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <div class="site-section site-block-feature bg-light">
       <div class="container">
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-6" data-aos="fade" >
-            <h2>For A Closer Walk With God</h2>
-            <p class="lead">Join Us As We Worship At Communion Faith Assembly.</p>
-
-          </div>
-        </div>
         <div class="d-block d-md-flex border-bottom">
-          <div class="text-center p-3 item border-right">            
+          <div class="text-center p-4 item border-right">
             <span class="flaticon-paper-plane display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">Worker's Meeting</h2>
-            <p>THERE ARE MANY VESSELS TO HONOR &  TO DISHONOR. ARE YOU WILLING TO BE A VESSEL UNTO HONOR, JOIN ON SUNDAYS FOR WORKERS MEETING. </p>
-            <p><a href="#">7:00 AM .<span class="icon-clock-o small"></span></a></p>
+            <h2 class="h5 text-uppercase">Our Mission</h2>
+            <p>This is a place where we gather together in quality praise and worship of the true and living God, equipped with the Word of God for growth and fellowship with one another in other to raise champions for Christ.</p>
+            <p><a href="#">Read More <span class="icon-arrow-right small"></span></a></p>
           </div>
-          <div class="text-center p-3 item">
+          <div class="text-center p-4 item">
             <span class="flaticon-chat-1 display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">Beliver's Class</h2>
-            <p>Communion Faith Assembly (CFA) is big enough to contain you, small enough to reach you, and powerful enough to deal with anything the devil brings against you.Join us every sunday as we walk through the sripture together
-            <p><a href="#">9:00AM<span class="icon-clock-o small"></span></a></p>
-          </div>
-          <div class="text-center p-3 item">
-            <span class="flaticon-chat-1 display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">Celebration Service</h2>
-            <p>JOIN OUR ATMOSPHERE OF WORSHIP AND THE ENRICHING WORD OF GOD. JOIN FELLOW CHAMPIONS AS WE WORSHIP GOD ON SUNDAYS</p>
-            <p><a href="#">10:00 AM<span class="icon-clock-o small"></span></a></p>
+            <h2 class="h5 text-uppercase">Our Vision</h2>
+            <p>Communion Faith Assembly (CFA) is big enough to contain you, small enough to reach you, and powerful enough to deal with anything the devil brings against you. Here we do not look at the bigness of your problem but the bigness of our God.</p>
+            <p><a href="#">Read More <span class="icon-arrow-right small"></span></a></p>
           </div>
         </div>
         <div class="d-block d-md-flex">
           <div class="text-center p-4 item border-right">
             <span class="flaticon-speaker display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">Bible Study</h2>
-            <p>EXPOSE YOURSELF TO THE KNOWLEDGE OF THE WORD OF GOD... JOIN US ON TUESDAYS, AS WE STUDY AND TRUST GOD TO SHINE LIGHT ON HIS WORD.</p>
-            <p><a href="#">5:15pm every Tuesday <span class="icon-clock-o small"></span></a></p>
+            <h2 class="h5 text-uppercase">Prophectic Decleration</h2>
+            <p>In this year, You shall not die but live to declare the glory of God in Jesus Name. I boldly decree into your life that year 2018 is your year of Fulfillment In the name of God the father, God the son & God the Holy Spirit. AMEN!</p>
+            <p><a href="#">Read More <span class="icon-arrow-right small"></span></a></p>
           </div>
           <div class="text-center p-4 item">
             <span class="flaticon-avatar display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">Prayer Alter</h2>
-            <p>JOIN US ON EVERY FRIDAY DAY OF THE WEEK AS WE PRAY OUR WAYS INTO BREAKTHROUGH IN HIS PRESENCE .</p>
-            <p><a href="#">5:15pm every Friday <span class="icon-clock-o small"></span></a></p>
+            <h2 class="h5 text-uppercase">Join Our Church!</h2>
+            <p>Let's Journey Together Till We Reach Eternity
+            Size & Caliber Doesn' Matter...God Does.</p>
+            <p><a href="#">Read More <span class="icon-arrow-right small"></span></a></p>
           </div>
         </div>
       </div>
@@ -439,22 +427,22 @@ $videoLink.on('click', function(e) {
               <div class="col-md-6">
                 <h3 class="footer-heading mb-4 text-white">Quick Links</h3>
                   <ul class="list-unstyled">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                    <li><a href="beliefs.html">beliefs</a></li>
-                    <li><a href="pastors.html">Ministers</a></li>
-                    <li><a href="cfa_ministry.html">CFA Ministry</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="services.php">Services</a></li>
+                    <li><a href="contact.php">contact</a></li>
+                    <li><a href="beliefs.php">beliefs</a></li>
+                    <li><a href="pastors.php">Ministers</a></li>
+                    <li><a href="cfa_ministry.php">CFA Ministry</a></li>
                   </ul>
               </div>
               <div class="col-md-6">
                 <h3 class="footer-heading mb-4 text-white">Ministries</h3>
                   <ul class="list-unstyled">
-                    <li><a href="cfa_ministry.html">Children</a></li>
-                    <li><a href="cfa_ministry.html">Women</a></li>
-                    <li><a href="cfa_ministry.html">Youth</a></li>
-                    <li><a href="cfa_ministry.html">Ladies</a></li>
-                    <li><a href="cfa_ministry.html">Men</a></li>
+                    <li><a href="cfa_ministry.php">Children</a></li>
+                    <li><a href="cfa_ministry.php">Women</a></li>
+                    <li><a href="cfa_ministry.php">Youth</a></li>
+                    <li><a href="cfa_ministry.php">Ladies</a></li>
+                    <li><a href="cfa_ministry.php">Men</a></li>
                   </ul>
               </div>
             </div>
@@ -526,4 +514,4 @@ $videoLink.on('click', function(e) {
     </script>
 
   </body>
-</html>
+</php>

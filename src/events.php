@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
   <head>
-    <title>Communion Faith Assembly :: Home</title>
+    <title>Commumion Faith Assembly</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -48,7 +48,7 @@
           <div class="py-1">
             <div class="row align-items-center">
               <div class="col-2">
-             <h2 class="mb-0 site-logo"> <a href="index.html"><img src="images/cfaa.png"></a></h2>
+                <h2 class="mb-0 site-logo"> <a href="index.php"><img src="images/cfaa.png"></a></h2>
               </div>
               <div class="col-10">
                 <nav class="site-navigation text-right" role="navigation">
@@ -57,30 +57,32 @@
 
                     <ul class="site-menu js-clone-nav d-none d-lg-block">
                       <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                       </li>
-                      <li><a href="services.html">Our Services</a></li>
+                      <li><a href="#">Our Services</a></li>
                       <li class="has-children active">
-                        <a href="beliefs.html">Our Mandate</a>
+                        <a href="beliefs.php">Our Mandate</a>
                         <ul class="dropdown arrow-top">
-                          <li><a href="beliefs.html">Beliefs</a></li>
-                          <li><a href="pastors.html">Ministers</a></li>
-                          <!-- <li><a href="services.html">Services</a></li> -->
-                          <li><a href="cfa_ministry.html">CFA Ministry</a></li>
+                          <li><a href="beliefs.php">Beliefs</a></li>
+                          <li><a href="beliefs.php">Ministers</a></li>
+                          <li><a href="beliefs.php">Services</a></li>
+                          <li><a href="beliefs.php">CFA Ministry</a></li>
+                          <!-- <li class="has-children">
+                            <a href="beliefs.php">CFA Ministry</a>
+                            <ul class="dropdown">
+                              <li><a href="beliefs.php">America</a></li>
+                              <li><a href="beliefs.php">Europe</a></li>
+                              <li><a href="beliefs.php">Asia</a></li>
+                              <li><a href="beliefs.php">Africa</a></li>
+                              
+                            </ul>
+                          </li>
+ -->
                         </ul>
                       </li>
-                      <li><a href="events.html">Events</a></li>
-                      <!-- <li class="has-children active">
-                        <a href="beliefs.html">Church Update</a>
-                        <ul class="dropdown arrow-top">
-                          <li><a href="beliefs.html">Brothers' Corner</a></li>
-                          <li><a href="pastors.html">Sisters' Corner</a></li>
-                          <li><a href="beliefs.html">Youths' Corner</a></li>
-                          <li><a href="beliefs.html">Childrens' Corner</a></li>
-                        </ul>
-                      </li> -->
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="events.php">Events</a></li>
+                      <li><a href="about.php">About</a></li>
+                      <li><a href="contact.php">Contact</a></li>
                     </ul>
                   </div>
                 </nav>
@@ -94,178 +96,42 @@
     <div style="height: 113px;"></div>
     <div class="slide-one-item home-slider owl-carousel">
       
-      <div class="site-blocks-cover" style="background-image: url(images/hero_b1_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-md-7 text-center" data-aos="fade">
-              <h1>Welcome To <strong>Communion Faith Assembly</strong></h1>
-            </div>
-          </div>
-        </div>
-      </div>  
+      
 
-      <div class="site-blocks-cover" style="background-image: url(images/hero_bg_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="site-blocks-cover inner-page" style="background-image: url(images/hero_bg_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
-              <h1>The <strong>Church</strong> Of <strong>Champions </strong></h1>
+              <h1>Latest Events</h1>
             </div>
           </div>
         </div>
       </div> 
     </div>
 
+    
+    
     <div class="site-section bg-light">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
-            <h2 class="mb-5">Latest Sermon</h2>
-            <p>Listening to the word of the most high. Get your spirit refreshened.</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-12 text-center mb-3">
-            <h3 class="h5"><span class="text-uppercase">&ldquo;Thy Kingdom Come&rdquo;</span> &mdash; <span class="small"><em>by</em> Reverend Tunde Akin-Akinsanya</span></h3>
-          </div>
-          <div class="col-12">
-            <div class="player">
-                <audio id="player2" preload="none" controls style="max-width: 100%">
-                    <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
-                </audio>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="site-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 mb-5 mb-md-0">
-            
-              <div class="img-border">
-                <a href="https://youtu.be/6CyBBBLNaPA" class="popup-vimeo image-play">
-                  <span class="icon-wrap">
-                    <span class="icon icon-play"></span>
-                  </span>
-                  <img src="images/about_3.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-            
-          </div>
-          <div class="col-md-5 ml-auto">
-            <h2 class="h2 mb-3">About Our Church</h2>
-            <p class="h5 mb-3">We Work together to raise champions</p>
-            <p class="mb-4">At Communion Faith Assembly (CFA), we are equipped with the word of God for growth and to raise Champions for God’s kingdom, A Glorious worship session that cause God to descend and bless his children. So we do not look at the bigness of any problem, but at the bigness of our God.
-            
-            We decree, your life shall attract testimonies, you shall be a testifier, the God of heaven will descend on your behalf and your case shall be settled.
-            <b><i>JOIN US FOR OUR NEXT SERVICE AND BE A CHAMPION. GOD BLESS YOU REAL GOOD IS MY PRAYER.</i></b></p>
-            <p><a href="https://youtu.be/6CyBBBLNaPA" target="_self" class="popup-vimeo text-uppercase">Watch Video <span class="icon-arrow-right small"></span></a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    
-
-    <div class="site-section site-block-feature bg-light">
-      <div class="container">
-        <div class="d-block d-md-flex border-bottom">
-          <div class="text-center p-4 item border-right">
-            <span class="flaticon-paper-plane display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">Our Mission</h2>
-            <p>This is a place where we gather together in quality praise and worship of the true and living God, equipped with the Word of God for growth and fellowship with one another in other to raise champions for Christ.</p>
-            <p><a href="about.html">Read More <span class="icon-arrow-right small"></span></a></p>
-          </div>
-          <div class="text-center p-4 item">
-            <span class="flaticon-chat-1 display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">Our Vision</h2>
-            <p>Communion Faith Assembly (CFA) is big enough to contain you, small enough to reach you, and powerful enough to deal with anything the devil brings against you. Here we do not look at the bigness of your problem but the bigness of our God.</p>
-            <p><a href="about.html">Read More <span class="icon-arrow-right small"></span></a></p>
-          </div>
-        </div>
-        <div class="d-block d-md-flex">
-          <div class="text-center p-4 item border-right">
-            <span class="flaticon-speaker display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">Prophectic Decleration</h2>
-            <p>In this year, You shall not die but live to declare the glory of God in Jesus Name. I boldly decree into your life that year 2018 is your year of Fulfillment In the name of God the father, God the son & God the Holy Spirit. AMEN!</p>
-            <p><a href="about.html">Read More <span class="icon-arrow-right small"></span></a></p>
-          </div>
-          <div class="text-center p-4 item">
-            <span class="flaticon-avatar display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">Join Our Church!</h2>
-            <p>Let's Journey Together Till We Reach Eternity
-            Size & Caliber Doesn' Matter...God Does.</p>
-            <p><a href="about.html">Read More <span class="icon-arrow-right small"></span></a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    
-
-
-    <div class="site-section block-15">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
-            <h2>Recent Events</h2>
-          </div>
-        </div>
-
-
-        <div class="nonloop-block-15 owl-carousel">
-          
-
+        <div class="row mb-5">
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
             <div class="media-with-text">
               <div class="img-border-sm mb-4">
-                <a href="https://vimeo.com/28959265" class="popup-vimeo image-play">
-                  <img src="images/img_1.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <h2 class="heading mb-0"><a href="#">Fist Sunday Of The Year Service</a></h2>
-              <span class="mb-3 d-block post-date">January 5, 2020 &bullet; By <a href="#">Media Team</a></span>
-              <p>Be glad in the lord and rejoice. The first sunday annoiting service was filled with grace and blessings.</p>
-            </div>
-          
-            <div class="media-with-text">
-              <div class="img-border-sm mb-4">
-                <a href="https://vimeo.com/28959265" class="popup-vimeo image-play">
-                  <img src="images/img_2.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <h2 class="heading mb-0"><a href="#">Cross Over Night</a></h2>
-              <span class="mb-3 d-block post-date">January 20, 2018 &bullet; By <a href="#">Media Team</a></span>
-              <p>Preparing our mind for the <b>GOOD NEWS </b> ahead. The service was filled with joy and grace. We welcome you to our year of good news.</p>
-            </div>
-          
-            <div class="media-with-text">
-              <div class="img-border-sm mb-4">
-                <a href="https://vimeo.com/28959265" class="popup-vimeo image-play">
-                  <img src="images/img_3.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <h2 class="heading mb-0"><a href="#">Christmas Carol Service</a></h2>
-              <span class="mb-3 d-block post-date">January 20, 2018 &bullet; By <a href="#">Media Team</a></span>
-              <p>We celebrate the greatness in the birth of our lord Jesus Christ. The carol was filled with songs of joy and glory.</p>
-            </div>
-
-            <!-- <div class="media-with-text">
-              <div class="img-border-sm mb-4">
-                <a href="https://vimeo.com/28959265" class="popup-vimeo image-play">
+                <a href="#">
                   <img src="images/img_1.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Church Bible Study</a></h2>
               <span class="mb-3 d-block post-date">January 20, 2018 &bullet; By <a href="#">Josh Holmes</a></span>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
-            </div> -->
-          
-          <!--   <div class="media-with-text">
+
+
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+            <div class="media-with-text">
               <div class="img-border-sm mb-4">
-                <a href="https://vimeo.com/28959265" class="popup-vimeo image-play">
+                <a href="#">
                   <img src="images/img_2.jpg" alt="" class="img-fluid">
                 </a>
               </div>
@@ -273,21 +139,25 @@
               <span class="mb-3 d-block post-date">January 20, 2018 &bullet; By <a href="#">Josh Holmes</a></span>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
             </div>
-           -->
-            <!-- <div class="media-with-text">
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+            
+            <div class="media-with-text">
               <div class="img-border-sm mb-4">
-                <a href="https://vimeo.com/28959265" class="popup-vimeo image-play">
+                <a href="#">
                   <img src="images/img_3.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Learn How To Pray</a></h2>
               <span class="mb-3 d-block post-date">January 20, 2018 &bullet; By <a href="#">Josh Holmes</a></span>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
-            </div> -->
-            
-            <!-- <div class="media-with-text">
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+            <div class="media-with-text">
               <div class="img-border-sm mb-4">
-                <a href="https://vimeo.com/28959265" class="popup-vimeo image-play">
+                <a href="#">
                   <img src="images/img_1.jpg" alt="" class="img-fluid">
                 </a>
               </div>
@@ -295,10 +165,11 @@
               <span class="mb-3 d-block post-date">January 20, 2018 &bullet; By <a href="#">Josh Holmes</a></span>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
             </div>
-          
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
             <div class="media-with-text">
               <div class="img-border-sm mb-4">
-                <a href="https://vimeo.com/28959265" class="popup-vimeo image-play">
+                <a href="#">
                   <img src="images/img_2.jpg" alt="" class="img-fluid">
                 </a>
               </div>
@@ -306,32 +177,111 @@
               <span class="mb-3 d-block post-date">January 20, 2018 &bullet; By <a href="#">Josh Holmes</a></span>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
             </div>
-          
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+            
             <div class="media-with-text">
               <div class="img-border-sm mb-4">
-                <a href="https://vimeo.com/28959265" class="popup-vimeo image-play">
+                <a href="#">
                   <img src="images/img_3.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Learn How To Pray</a></h2>
               <span class="mb-3 d-block post-date">January 20, 2018 &bullet; By <a href="#">Josh Holmes</a></span>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
-            </div> -->
-          
+            </div>
+          </div>
 
 
         </div>
 
         <div class="row">
-          
+          <div class="col-md-12 text-center">
+            <div class="site-block-27">
+              <ul>
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
+        
       </div>
     </div>
-    
-
 
     
-    <div class="py-5 quick-contact-info">
+
+    <div class="site-section block-14">
+
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+            <h2>Testimonies</h2>
+          </div>
+        </div>
+
+        <div class="nonloop-block-14 owl-carousel">
+          
+          <div class="p-4">
+            <div class="d-flex block-testimony">
+              <div class="person mr-3">
+                <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle">
+              </div>
+              <div>
+                <h2 class="h5">Katie Johnson</h2>
+                <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="d-flex block-testimony">
+              <div class="person mr-3">
+                <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded-circle">
+              </div>
+              <div>
+                <h2 class="h5">Jane Mars</h2>
+                <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="d-flex block-testimony">
+              <div class="person mr-3">
+                <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded-circle">
+              </div>
+              <div>
+                <h2 class="h5">Shane Holmes</h2>
+                <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="d-flex block-testimony">
+              <div class="person mr-3">
+                <img src="images/person_4.jpg" alt="Image" class="img-fluid rounded-circle">
+              </div>
+              <div>
+                <h2 class="h5">Mark Johnson</h2>
+                <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      
+    </div>
+
+    
+
+        <div class="py-5 quick-contact-info">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -360,7 +310,7 @@
         </div>
       </div>
     </div>
-    <footer class="site-footer">
+     <footer class="site-footer">
       <div class="container">
         
 
@@ -378,22 +328,22 @@
               <div class="col-md-6">
                 <h3 class="footer-heading mb-4 text-white">Quick Links</h3>
                   <ul class="list-unstyled">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                    <li><a href="beliefs.html">beliefs</a></li>
-                    <li><a href="pastors.html">Ministers</a></li>
-                    <li><a href="cfa_ministry.html">CFA Ministry</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="services.php">Services</a></li>
+                    <li><a href="contact.php">contact</a></li>
+                    <li><a href="beliefs.php">beliefs</a></li>
+                    <li><a href="pastors.php">Ministers</a></li>
+                    <li><a href="cfa_ministry.php">CFA Ministry</a></li>
                   </ul>
               </div>
               <div class="col-md-6">
                 <h3 class="footer-heading mb-4 text-white">Ministries</h3>
                   <ul class="list-unstyled">
-                    <li><a href="cfa_ministry.html">Children</a></li>
-                    <li><a href="cfa_ministry.html">Women</a></li>
-                    <li><a href="cfa_ministry.html">Youth</a></li>
-                    <li><a href="cfa_ministry.html">Ladies</a></li>
-                    <li><a href="cfa_ministry.html">Men</a></li>
+                    <li><a href="cfa_ministry.php">Children</a></li>
+                    <li><a href="cfa_ministry.php">Women</a></li>
+                    <li><a href="cfa_ministry.php">Youth</a></li>
+                    <li><a href="cfa_ministry.php">Ladies</a></li>
+                    <li><a href="cfa_ministry.php">Men</a></li>
                   </ul>
               </div>
             </div>
@@ -465,4 +415,4 @@
     </script>
 
   </body>
-</html>
+</php>

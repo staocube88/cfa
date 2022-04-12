@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
   <head>
-    <title>Commumion Faith Assembly</title>
+    <title>Communion Faith Asssembly :: Beliefs</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -48,7 +48,7 @@
           <div class="py-1">
             <div class="row align-items-center">
               <div class="col-2">
-                <h2 class="mb-0 site-logo"> <a href="index.html"><img src="images/cfaa.png"></a></h2>
+                <h2 class="mb-0 site-logo"> <a href="index.php"><img src="images/cfaa.png"></a></h2>
               </div>
               <div class="col-10">
                 <nav class="site-navigation text-right" role="navigation">
@@ -57,32 +57,32 @@
 
                     <ul class="site-menu js-clone-nav d-none d-lg-block">
                       <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                       </li>
-                      <li><a href="#">Our Services</a></li>
+                      <li><a href="services.php">Our Services</a></li>
                       <li class="has-children active">
-                        <a href="beliefs.html">Our Mandate</a>
+                        <a href="beliefs.php">Our Mandate</a>
                         <ul class="dropdown arrow-top">
-                          <li><a href="beliefs.html">Beliefs</a></li>
-                          <li><a href="beliefs.html">Ministers</a></li>
-                          <li><a href="beliefs.html">Services</a></li>
-                          <li><a href="beliefs.html">CFA Ministry</a></li>
+                          <li><a href="beliefs.php">Beliefs</a></li>
+                          <li><a href="beliefs.php">Ministers</a></li>
+                          <!-- <li><a href="beliefs.php">Services</a></li> -->
+                          <li><a href="cfa_ministry.php">CFA Ministry</a></li>
                           <!-- <li class="has-children">
-                            <a href="beliefs.html">CFA Ministry</a>
+                            <a href="beliefs.php">CFA Ministry</a>
                             <ul class="dropdown">
-                              <li><a href="beliefs.html">America</a></li>
-                              <li><a href="beliefs.html">Europe</a></li>
-                              <li><a href="beliefs.html">Asia</a></li>
-                              <li><a href="beliefs.html">Africa</a></li>
+                              <li><a href="beliefs.php">America</a></li>
+                              <li><a href="beliefs.php">Europe</a></li>
+                              <li><a href="beliefs.php">Asia</a></li>
+                              <li><a href="beliefs.php">Africa</a></li>
                               
                             </ul>
                           </li>
  -->
                         </ul>
                       </li>
-                      <li><a href="events.html">Events</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="events.php">Events</a></li>
+                      <li><a href="about.php">About</a></li>
+                      <li><a href="contact.php">Contact</a></li>
                     </ul>
                   </div>
                 </nav>
@@ -98,11 +98,11 @@
       
       
 
-      <div class="site-blocks-cover inner-page" style="background-image: url(images/hero_bg_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="site-blocks-cover" style="background-image: url(images/hero_bg_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
-              <h1>Latest Events</h1>
+              <h1>Our Beliefs</h1>
             </div>
           </div>
         </div>
@@ -111,108 +111,48 @@
 
     
     
-    <div class="site-section bg-light">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-            <div class="media-with-text">
-              <div class="img-border-sm mb-4">
-                <a href="#">
-                  <img src="images/img_1.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <h2 class="heading mb-0"><a href="#">Church Bible Study</a></h2>
-              <span class="mb-3 d-block post-date">January 20, 2018 &bullet; By <a href="#">Josh Holmes</a></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
-
-
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-            <div class="media-with-text">
-              <div class="img-border-sm mb-4">
-                <a href="#">
-                  <img src="images/img_2.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <h2 class="heading mb-0"><a href="#">Church Building Accomplishments in January 2018</a></h2>
-              <span class="mb-3 d-block post-date">January 20, 2018 &bullet; By <a href="#">Josh Holmes</a></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-            
-            <div class="media-with-text">
-              <div class="img-border-sm mb-4">
-                <a href="#">
-                  <img src="images/img_3.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <h2 class="heading mb-0"><a href="#">Learn How To Pray</a></h2>
-              <span class="mb-3 d-block post-date">January 20, 2018 &bullet; By <a href="#">Josh Holmes</a></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-            <div class="media-with-text">
-              <div class="img-border-sm mb-4">
-                <a href="#">
-                  <img src="images/img_1.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <h2 class="heading mb-0"><a href="#">Church Bible Study</a></h2>
-              <span class="mb-3 d-block post-date">January 20, 2018 &bullet; By <a href="#">Josh Holmes</a></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-            <div class="media-with-text">
-              <div class="img-border-sm mb-4">
-                <a href="#">
-                  <img src="images/img_2.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <h2 class="heading mb-0"><a href="#">Church Building Accomplishments in January 2018</a></h2>
-              <span class="mb-3 d-block post-date">January 20, 2018 &bullet; By <a href="#">Josh Holmes</a></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-            
-            <div class="media-with-text">
-              <div class="img-border-sm mb-4">
-                <a href="#">
-                  <img src="images/img_3.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <h2 class="heading mb-0"><a href="#">Learn How To Pray</a></h2>
-              <span class="mb-3 d-block post-date">January 20, 2018 &bullet; By <a href="#">Josh Holmes</a></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
-            </div>
-          </div>
-
-
-        </div>
-
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <div class="site-block-27">
-              <ul>
-                <li><a href="#">&lt;</a></li>
-                <li class="active"><span>1</span></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#">&gt;</a></li>
-              </ul>
-            </div>
+      <div class="site-block-half d-flex">
+        <div class="image bg-image order-2" style="background-image: url('images/hero_b1_1.jpg');"></div>
+        <div class="text">
+          <div class="section-heading text-left">
+            <h2 class="mb-5">Belief #1</h2>
+            <p>There is only one God who exists in three distinct persons: Father, Son and Holy Spirit.
+The Bible is God’s word to us to lead us to Himself and to guide our lives. It is without error and is the authority on which we base our faith, conduct and teachings.</p>
+            <p><a href="#" class="text-uppercase">Read More <span class="icon-arrow-right small"></span></a></p>
           </div>
         </div>
-        
       </div>
-    </div>
+      <div class="site-block-half d-flex">
+        <div class="image bg-image" style="background-image: url('images/hero_bg_2.jpg');"></div>
+        <div class="text">
+          <div class="section-heading text-left">
+            <h2 class="mb-5">Belief #2</h2>
+            <p>Jesus Christ is the Son of God who came to this earth as Savior of the world.
+Through His Holy Spirit, God lives in and through us now.
+Nothing in creation “just happened”. God created all things by His word and sustains all things and He is the final authority in every situation
+Jesus died on the cross, shed His blood for our sins and rose again on the third day. Salvation is found by placing our faith in what Jesus did for us on the cross</p>
+            <p><a href="#" class="text-uppercase">Read More <span class="icon-arrow-right small"></span></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="site-block-half d-flex">
+        <div class="image bg-image order-2" style="background-image: url('images/hero_bg_3.jpg');"></div>
+        <div class="text">
+          <div class="section-heading text-left">
+            <h2 class="mb-5">Belief #3</h2>
+            <p>As children of God, we are overcomers and more than conquerors and God intends for each of us to experience the abundant life He has in store for us.
+We believe in the baptism of the Holy Spirit evidenced by the speaking of other tongues<br>
+We believe in the baptism of water by immersion signifying the death, burial and resurrection of our Lord Jesus<br>
+We believe in the power and efficacy of prayer<br>
+We believe in the Holy Communion signifying the body and blood of our Lord Jesus Christ<br>
+We believe in the ministry of angels as servants of the heirs of salvation<br>
+We believe in the second coming of our Lord and Saviour Jesus Christ<br>
+Heaven and hell are real places. Death is a beginning, not the end.</p>
+            <p><a href="#" class="text-uppercase">Read More <span class="icon-arrow-right small"></span></a></p>
+          </div>
+        </div>
+      </div>
+    
 
     
 
@@ -234,8 +174,8 @@
                 <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle">
               </div>
               <div>
-                <h2 class="h5">Katie Johnson</h2>
-                <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+                <h2 class="h5">Solomon Oluwatobi</h2>
+                <blockquote>&ldquo;The lord has bben good to me ever since have been part of this great church. I cannot tell it all. Praise the name of the lord over my life !&rdquo;</blockquote>
               </div>
             </div>
           </div>
@@ -245,7 +185,7 @@
                 <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded-circle">
               </div>
               <div>
-                <h2 class="h5">Jane Mars</h2>
+                <h2 class="h5">Shalom Dada</h2>
                 <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
               </div>
             </div>
@@ -256,7 +196,7 @@
                 <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded-circle">
               </div>
               <div>
-                <h2 class="h5">Shane Holmes</h2>
+                <h2 class="h5">Okewale Bunmi</h2>
                 <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
               </div>
             </div>
@@ -328,22 +268,22 @@
               <div class="col-md-6">
                 <h3 class="footer-heading mb-4 text-white">Quick Links</h3>
                   <ul class="list-unstyled">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                    <li><a href="beliefs.html">beliefs</a></li>
-                    <li><a href="pastors.html">Ministers</a></li>
-                    <li><a href="cfa_ministry.html">CFA Ministry</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="services.php">Services</a></li>
+                    <li><a href="contact.php">contact</a></li>
+                    <li><a href="beliefs.php">beliefs</a></li>
+                    <li><a href="pastors.php">Ministers</a></li>
+                    <li><a href="cfa_ministry.php">CFA Ministry</a></li>
                   </ul>
               </div>
               <div class="col-md-6">
                 <h3 class="footer-heading mb-4 text-white">Ministries</h3>
                   <ul class="list-unstyled">
-                    <li><a href="cfa_ministry.html">Children</a></li>
-                    <li><a href="cfa_ministry.html">Women</a></li>
-                    <li><a href="cfa_ministry.html">Youth</a></li>
-                    <li><a href="cfa_ministry.html">Ladies</a></li>
-                    <li><a href="cfa_ministry.html">Men</a></li>
+                    <li><a href="cfa_ministry.php">Children</a></li>
+                    <li><a href="cfa_ministry.php">Women</a></li>
+                    <li><a href="cfa_ministry.php">Youth</a></li>
+                    <li><a href="cfa_ministry.php">Ladies</a></li>
+                    <li><a href="cfa_ministry.php">Men</a></li>
                   </ul>
               </div>
             </div>
@@ -415,4 +355,4 @@
     </script>
 
   </body>
-</html>
+</php>
