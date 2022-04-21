@@ -1,5 +1,5 @@
-<!DOCTYPE php>
-<php lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>Communion Faith Asssembly :: Beliefs</title>
     <meta charset="utf-8">
@@ -355,4 +355,4 @@ Heaven and hell are real places. Death is a beginning, not the end.</p>
     </script>
 
   </body>
-</php>
+</html>

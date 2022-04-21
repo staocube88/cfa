@@ -1,5 +1,5 @@
-<!DOCTYPE php>
-<php lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>Communion Faith Assembly :: Services</title>
     <meta charset="utf-8">
@@ -526,4 +526,4 @@ $videoLink.on('click', function(e) {
     </script>
 
   </body>
-</php>
+</html>
