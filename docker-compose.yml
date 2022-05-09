@@ -1,24 +1,17 @@
-version: '3.1'
+version: "3.7"
 
 services:
-  php:
-    build: 
-        context: .
-        dockerfile: Dockerfile
+  web:
+    build: .
+    command: php -S 0.0.0.0:8040 -t src/
+    volumes:
+      - .:/usr/share/nginx/html
     ports:
       - 8040:80
-    volumes:
-      - ./src:/var/www/html/
+    networks:
+      - host
 
-  db:
-    image: mysql
-    command: --default-authentication-plugin=mysql_native_password
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: example
+networks:
+  host:
 
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8041:8080
+  
